@@ -1,0 +1,87 @@
+.flex-container-yourArticle
+{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    box-sizing: border-box
+}
+
+.yourArticle
+ {
+    border: 1px solid lightslategray;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px; 
+    float: left;
+    background-color: white;
+ }
+
+ .yourArticle-title
+ {
+   font-weight: bold;
+   font-size: smaller;
+   text-align: left;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 10px;
+ }
+
+ .yourArticle-description
+ {
+   color: grey;
+   font-size: small;
+   text-align: left;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+ }
+
+.yourArticle-image > img
+{ 
+   width: 90px;
+   height: 200px;
+   float: left;
+   margin-right: 7px;
+   object-fit: cover;
+}
+
+.yourArticle-author-image > img
+{ 
+   width: 50px;
+   height: 50px;
+   object-fit: cover;
+   float: left;
+   border-radius: 50%;
+}
+
+.yourArticle-author-name
+{
+  color: black;
+  font-size: small;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+
+.yourArticle-length
+{
+  color:gray;
+  font-size: small;
+  text-align: left;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 5px;
+}
+
+.yourArticle-bookmark > img
+{ 
+   float: right;
+   width: 25px;
+   height: 25px;
+}
